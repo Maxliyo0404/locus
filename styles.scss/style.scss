@@ -198,7 +198,8 @@ header{
                     width: 80px;
                     height: 80px;
                     border-radius: 50px;
-                    background: #FFFFFF;
+                    background: rgba(255, 255, 255, 0,5);
+                    backdrop-filter:blur(8px);
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -208,7 +209,7 @@ header{
                      cursor: pointer;
                     &:hover{
                         background: #fff;
-                        transform: scale(1.0.5);
+                        transform: scale(1.1);
                          box-shadow: 0 15px 30px  rgba(0, 0, 0, 0.15);
                     }
                 }
