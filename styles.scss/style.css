@@ -128,6 +128,16 @@ header .header-hero .hero-right .hero-rasm {
   z-index: 2;
 }
 
+.section_one .section_one-wrapper {
+  padding: 60px 0;
+}
+.section_one .section_one-wrapper .one-tetle {
+  max-width: 560px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 @media (max-width: 1110px) {
   header .header-hero {
     transform: translate(50px);
