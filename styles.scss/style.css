@@ -528,6 +528,8 @@ header .header-hero .hero-right .hero-rasm {
   }
   .section_two .section_two-wrapper .two-left {
     max-width: 70%;
+    margin-top: -20px;
+    margin: 0 auto;
   }
   .section_two .section_two-wrapper .two-right {
     max-width: 100%;
