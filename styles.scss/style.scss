@@ -419,6 +419,7 @@ header{
       padding: 60px 0;
       display: flex;
       align-items: stretch;
+      max-height: 700px;
       .five-left{
         max-width: 40%;
         overflow: hidden;
@@ -456,7 +457,36 @@ header{
             }
            
         }
-        
+        .five-texts{
+            display: flex;
+            align-items: center;
+            position: relative;
+            img{
+                position: absolute;
+                z-index: 7;
+            }
+            p{
+                display: block;
+               position: absolute;
+                z-index: 8;  
+                left: 25px;
+               font-weight: 500;
+               font-size: 20px;
+               line-height:100%;
+               color: #486958; 
+               .spans{
+                display: block;
+                  font-weight: 600;
+                  font-size: 25px;
+                  line-height:100%;
+                  color: #58A9A5; 
+                  margin-top: 60px;
+                  
+               }
+
+
+            }
+        }
       }
     
     }
