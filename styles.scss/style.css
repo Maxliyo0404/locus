@@ -1079,6 +1079,9 @@ header .header-hero .hero-right .hero-rasm {
   .section_six .section_six-wrapper {
     flex-direction: column;
   }
+  .section_six .section_six-wrapper .six-left {
+    max-width: 100%;
+  }
   .section_six .section_six-wrapper .six-left h2 {
     font-size: 30%;
     line-height: 32px;
