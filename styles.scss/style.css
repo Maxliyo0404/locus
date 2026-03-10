@@ -308,6 +308,39 @@ header .header-hero .hero-right .hero-rasm {
   background: #58A9A5;
   margin-top: 10px;
 }
+.section_three .section_three-wrapper .three-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.section_three .section_three-wrapper .three-list .three-item {
+  max-width: 33%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+.section_three .section_three-wrapper .three-list .three-item h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #58A9A5;
+  margin-bottom: 10px;
+}
+.section_three .section_three-wrapper .three-list .three-item p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #486958;
+}
+.section_three .section_three-wrapper .three-list .three-item .three-rasm {
+  max-width: 100%;
+  margin-top: 35px;
+}
+.section_three .section_three-wrapper .three-list .three-item .three-rasms {
+  max-width: 100%;
+  margin-bottom: 35px;
+}
 
 @media (max-width: 1110px) {
   header .header-hero {

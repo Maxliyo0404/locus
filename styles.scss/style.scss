@@ -319,6 +319,40 @@ header{
                 }
             }
         }
+        .three-list{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            .three-item{
+                max-width: 33%;
+                display: flex;
+                align-items: stretch;
+                flex-direction: column;
+                   h3{
+                      font-weight: 700;
+                      font-size: 40px;
+                      line-height:100%;
+                      color: #58A9A5;  
+                      margin-bottom: 10px;
+                   }
+                   p{
+                      font-weight: 500;
+                      font-size: 20px;
+                      line-height:100%;
+                      color: #486958; 
+       
+                   }
+                  .three-rasm{
+                    max-width: 100%;
+                    margin-top: 35px;
+                  }
+                  .three-rasms{
+                    max-width: 100%;
+                    margin-bottom: 35px;
+                  }
+            }
+        }
     }
 }
 
