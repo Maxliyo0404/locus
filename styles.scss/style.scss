@@ -869,7 +869,14 @@ header{
     }
     .section_six{
         .section_six-wrapper{
-            
+            .six-left{
+                h2{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
         }
     }
 }

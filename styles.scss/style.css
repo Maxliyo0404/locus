@@ -784,6 +784,12 @@ header .header-hero .hero-right .hero-rasm {
   .section_three .section_three-wrapper .three-list .three-items .three-rasms {
     width: 80%;
   }
+  .section_six .section_six-wrapper .six-left h2 {
+    font-size: 40px;
+  }
+  .section_six .section_six-wrapper .six-left p {
+    font-size: 20px;
+  }
 }
 @media (max-width: 760px) {
   .section_three .section_three-wrapper .three-list {
