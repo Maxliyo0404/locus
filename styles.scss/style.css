@@ -528,12 +528,10 @@ header .header-hero .hero-right .hero-rasm {
 .section_six .section_six-wrapper .six-right form {
   max-width: 100%;
   padding: 20px;
+  border: 1px solid rgb(72, 105, 88);
 }
 .section_six .section_six-wrapper .six-right form hr {
   padding: 0 20px;
-}
-.section_six .section_six-wrapper .six-right form {
-  border: 1px solid rgb(72, 105, 88);
 }
 .section_six .section_six-wrapper .six-right form input {
   max-width: 100%;
