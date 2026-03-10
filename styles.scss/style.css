@@ -1090,6 +1090,9 @@ header .header-hero .hero-right .hero-rasm {
     font-size: 20px;
     line-height: 25px;
   }
+  .section_six .section_six-wrapper .six-right {
+    max-width: 100%;
+  }
 }
 @media (max-width: 560px) {
   header .header-container .header-list {
