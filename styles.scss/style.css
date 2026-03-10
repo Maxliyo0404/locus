@@ -32,6 +32,8 @@ header .header-container .logo {
 }
 header .header-container .logo:hover {
   color: #404242;
+  -webkit-text-decoration: underline rgb(254, 198, 45);
+          text-decoration: underline rgb(254, 198, 45);
 }
 header .header-container .header-list {
   display: flex;
@@ -46,6 +48,8 @@ header .header-container .header-list .header-item a {
 }
 header .header-container .header-list .header-item a:hover {
   color: #58A9A5;
+  -webkit-text-decoration: underline rgb(254, 198, 45);
+          text-decoration: underline rgb(254, 198, 45);
 }
 header .header-container .header-btn {
   padding: 21px 80px;
@@ -367,6 +371,32 @@ header .header-hero .hero-right .hero-rasm {
 .section_three .section_three-wrapper .three-list .three-items .three-rasms {
   max-width: 100%;
   margin-bottom: 35px;
+}
+
+.section_four {
+  padding: 40px 0;
+}
+.section_four .section_four-wrapper {
+  margin-bottom: 96px;
+  max-width: 435px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section_four .section_four-wrapper h2 {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 100%;
+  color: #1C2323;
+}
+.section_four marquee .four-images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section_four marquee .four-images img {
+  width: 10%;
 }
 
 @media (max-width: 1110px) {
@@ -776,6 +806,16 @@ header .header-hero .hero-right .hero-rasm {
   .section_three .section_three-wrapper .three-list .three-items p {
     max-width: 100%;
     margin-bottom: 15px;
+  }
+  .section_four .section_four-wrapper {
+    max-width: 100%;
+  }
+  .section_four .section_four-wrapper h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .section_four marquee .four-images img {
+    width: 20%;
   }
 }
 @media (max-width: 560px) {

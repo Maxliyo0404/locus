@@ -29,6 +29,7 @@ header{
              line-height:100%;
               &:hover{
               color: #404242;
+              text-decoration: underline rgba(254, 198, 45, 1) ;
              } 
         }
         .header-list{
@@ -43,6 +44,7 @@ header{
                      color: #404242;
                       &:hover{
                       color: #58A9A5;
+                       text-decoration: underline rgba(254, 198, 45, 1) ;
                      } 
                 }
              }
@@ -384,7 +386,33 @@ header{
     }
 }
 .section_four{
-    
+    padding: 40px 0;
+    .section_four-wrapper{
+      margin-bottom: 96px;
+      max-width: 435px;
+      margin: 0 auto;
+      text-align: center;
+          h2{
+               font-weight: 800;
+               font-size: 70px;
+               line-height:100%;
+               color: #1C2323;  
+            }
+    }
+    marquee{
+    .four-images{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+       img{
+        width: 10%;
+       }
+        
+    }
+
+    }
 }
 
 
@@ -864,6 +892,22 @@ header{
                     }
                 }
             }
+        }
+    }
+    .section_four{
+        .section_four-wrapper{
+            max-width: 100%;
+            h2{
+              font-size: 30px;
+              line-height: 32px;
+            }  
+        }
+        marquee{
+         .four-images{
+            img{
+                width: 20%;
+            }
+         }
         }
     }
 }
