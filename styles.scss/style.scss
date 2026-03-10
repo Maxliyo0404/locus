@@ -416,7 +416,28 @@ header{
 }
 .section_five{
     .section_five-wrapper{
-
+      padding: 60px 0;
+      display: flex;
+      align-items: stretch;
+      .five-left{
+        max-width: 40%;
+        overflow: hidden;
+        height: auto;
+      }
+      .five-right{
+        max-width: 60%;
+        height: auto;
+        padding: 50px 120px;
+        background: #CCF0E6;
+        flex: 1;
+        .five-list{
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            gap: 30px;
+        }
+      }
+    
     }
 }
 
