@@ -1083,6 +1083,7 @@ header .header-hero .hero-right .hero-rasm {
   .section_six .section_six-wrapper .six-left {
     max-width: 100%;
     margin-bottom: 30px;
+    margin-top: 0;
   }
   .section_six .section_six-wrapper .six-left h2 {
     font-size: 30px;
