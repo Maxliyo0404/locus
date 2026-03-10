@@ -1078,6 +1078,7 @@ header .header-hero .hero-right .hero-rasm {
   }
   .section_six .section_six-wrapper {
     flex-direction: column;
+    padding: 40px 0;
   }
   .section_six .section_six-wrapper .six-left {
     max-width: 100%;
