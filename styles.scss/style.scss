@@ -1205,12 +1205,15 @@ header{
     }
      .section_six{
         .section_six-wrapper{
+            flex-direction: column;
             .six-left{
                 h2{
-                    font-size: 40px;
+                    font-size: 30%;
+                    line-height: 32px;
                 }
                 p{
                     font-size: 20px;
+                    line-height: 25px;
                 }
             }
         }

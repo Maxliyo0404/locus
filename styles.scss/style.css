@@ -1076,11 +1076,16 @@ header .header-hero .hero-right .hero-rasm {
     line-height: 22px;
     margin-top: 0px;
   }
+  .section_six .section_six-wrapper {
+    flex-direction: column;
+  }
   .section_six .section_six-wrapper .six-left h2 {
-    font-size: 40px;
+    font-size: 30%;
+    line-height: 32px;
   }
   .section_six .section_six-wrapper .six-left p {
     font-size: 20px;
+    line-height: 25px;
   }
 }
 @media (max-width: 560px) {
