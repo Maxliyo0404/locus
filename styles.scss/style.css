@@ -1091,7 +1091,7 @@ header .header-hero .hero-right .hero-rasm {
     line-height: 25px;
   }
   .section_six .section_six-wrapper .six-right {
-    max-width: 100%;
+    width: 100%;
   }
 }
 @media (max-width: 560px) {
